@@ -21,7 +21,7 @@ const buttonClick = evt => {
                     .catch(err => console.log(err))
             })
         })
-        .catch(err => console.log(err))
+        .catch(err => console.log(err));
 }
 
 residentsBtn.addEventListener('click', buttonClick)
